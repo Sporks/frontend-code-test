@@ -1,0 +1,37 @@
+h1{
+  text-align: center;
+}
+.ingredients{
+  justify-content: center;
+  text-align: center;
+  order: 2;
+  width: 50%;
+  flex-grow: 1;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.select{
+  display: flex;
+  flex-direction: column;
+  padding-right: 15%;
+}
+.recipes{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+/*.recipes span{
+  text-align: center;
+}*/
+.select span{
+  text-align: center;
+}
+#recipe_names{
+  display: flex;
+  justify-content: left;
+  flex-grow: 2;
+  flex-direction: column;
+}

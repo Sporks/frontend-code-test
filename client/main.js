@@ -43,12 +43,17 @@ $(document).ready(function(e){
   $("#selection").change(function(){
     myObj.selection = $("#selection option:selected").text();
     var tempData = selChange(myObj.selection);
+    //Save in local storage
     Storage.set('myObj', myObj);
     buildIt(tempData);
   });
 });
 //function to change the selection and update DOM
 function selChange(selected){
+  //Uncheck all selected recipes
+  $("input[type=checkbox]:checked").each(function(){
+    $(this).prop("checked", false);
+  });
   //get list of ids to create new array
   let ids = ings2rec[selected];
   let tempData = [];

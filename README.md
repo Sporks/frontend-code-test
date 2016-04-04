@@ -1,3 +1,18 @@
+Instructions to run from Daniel Levin
+=================
+
+## Instructions
+
+* Make sure you have Node v4.5 or greater
+* Clone this repo
+* Run npm install to install Express and nodemon
+* npm start  and then navigate to localhost:3000
+
+## Other thoughts
+
+I could have used Angular or React to make this a bit easier to create, but I decided to go for a challenge and write it all in jQuery.
+
+
 DataScience's Frontend Code Test
 ==================
 
@@ -19,4 +34,3 @@ Using the provided JSON data representing a collection of meal recipes, create a
 * Show an alphabetically ordered list of distinct ingredients for the selected recipes. This should update as recipes are selected / unselected.
 * Persist the selections locally and regenerate the view on page refresh.
 * In a README note any required setup to be able to run the app, such as modifying hosts file, etc.
-
